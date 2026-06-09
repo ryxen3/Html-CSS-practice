@@ -1,0 +1,574 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+/* header section */
+
+.head {
+  background-color: #111;
+  color: #f1f1f1;
+  padding: 10px 0px 0px 200px;
+  position: relative;
+}
+
+/* logo section */
+
+.logo {
+  display: inline-block;
+  margin-right: 40px;
+}
+
+.logo img {
+  display: inline-block;
+}
+
+.logo span {
+  display: inline-block;
+  position: relative;
+  font-size: 20px;
+  transform: translateX(-40px);
+}
+
+/* header navigation section */
+.nav {
+  display: inline-block;
+}
+
+.nav ul {
+  list-style-type: none;
+}
+.nav li {
+  display: inline-block;
+  padding: 20px 40px;
+  font-weight: 100;
+}
+
+.nav li:hover {
+  background-color: #ff6347;
+}
+
+/* header phone section */
+
+.phone {
+  display: inline-block;
+  background-color: rgba(0, 255, 255, 0.651);
+  padding: 15px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.phone img {
+  display: inline-block;
+  vertical-align: middle;
+}
+.phone span {
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: 900;
+  font-size: small;
+}
+
+/* under header image section */
+
+.image {
+  position: relative;
+}
+
+.image img {
+  width: 100%;
+}
+
+.image-desc {
+  background-color: rgba(255, 246, 235, 0.849);
+  position: absolute;
+  top: 40%;
+  left: 15%;
+  width: 20%;
+  padding: 30px;
+  opacity: 0.9;
+}
+
+.image-desc h1 {
+  text-align: right;
+  font-weight: 300;
+}
+
+.image-desc h4 {
+  font-size: 22px;
+}
+
+.image-desc span {
+  color: #1d1d1d;
+}
+
+/* middle content section */
+
+.content {
+  padding: 120px 0px 120px 280px;
+  position: relative;
+}
+
+/* top description part of content */
+
+.main-content {
+  width: 1300px;
+  display: inline-block;
+}
+
+.desc {
+  text-align: center;
+  font-size: 24px;
+  color: #302c27;
+}
+
+.desc h1 {
+  padding-bottom: 40px;
+}
+
+.desc span {
+  font-size: 18px;
+  padding: 0px 5px 0px;
+}
+
+/* section of featured projects */
+
+.featured-projects-title {
+  border-bottom: 1px solid rgb(230, 230, 230);
+  margin-top: 150px;
+  margin-bottom: 80px;
+  width: 530px;
+  height: 30px;
+}
+
+.featured-projects-title span {
+  display: inline-block;
+  font-weight: 700;
+  margin: 0px 20px 0px 0px;
+}
+
+.featured-projects-title img {
+  display: inline-block;
+}
+
+/* icon link hover part */
+
+.link-icon {
+  text-decoration: none;
+}
+
+.label {
+  vertical-align: middle;
+  margin-left: 5px;
+  color: #999;
+  font-weight: 100;
+}
+
+.link-icon:hover span {
+  background-position: 0 0;
+  color: #44d7d7;
+}
+
+/* residential icon */
+
+.residential-block {
+  display: inline-block;
+  border-right: 1px solid rgb(230, 230, 230);
+}
+
+.res-icon {
+  width: 24px;
+  height: 24px;
+  background: url("DreamDevelopers/residential2.png") -24px 0 no-repeat;
+  vertical-align: middle;
+}
+
+/* commercial icon */
+
+.commercial-block {
+  display: inline-block;
+}
+
+.com-icon {
+  width: 24px;
+  height: 19px;
+  background: url("DreamDevelopers/commercial.png") -24px 0 no-repeat;
+  vertical-align: middle;
+}
+
+/* image gallery in the middle */
+
+.items {
+  position: relative;
+  display: inline-block;
+  width: 320px;
+}
+
+.items img {
+  width: 100%;
+  height: 420px;
+  display: block;
+}
+
+.item-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 12px 18px;
+  height: 80px;
+  z-index: 1;
+  text-align: center;
+}
+
+.item-title h4 {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.item-title span {
+  display: inline-block;
+  margin-left: 5px;
+  color: gray;
+  font-style: italic;
+  font-size: 14px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+}
+
+.items:hover .overlay {
+  opacity: 0.8;
+}
+
+.gallery {
+  padding-bottom: 100px;
+}
+
+/* start of right side content */
+
+.right-content {
+  width: 280px;
+  height: 1500px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* black colored lists */
+
+.right-content-list1 {
+  background-color: rgba(0, 0, 0, 0.897);
+  color: #f1f1f1;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #f1f1f1;
+  list-style-position: inside;
+}
+
+.right-content-list1 li {
+  list-style-image: url("DreamDevelopers/side-menu-list-style.png");
+  border-bottom: 1px solid #f1f1f1;
+  padding: 20px 20px 20px 50px;
+}
+
+/* red colored lists */
+
+.right-content-list2 {
+  background-color: #ff6347;
+  color: #f1f1f1;
+  border-bottom: 1px solid #f1f1f1;
+  list-style-position: inside;
+}
+
+.right-content-list2 li {
+  list-style-image: url("DreamDevelopers/side-menu-list-style.png");
+  border-bottom: 1px solid #f1f1f1;
+  padding: 20px 20px 20px 50px;
+}
+
+/* start of about us section */
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.about {
+  width: 850px;
+  float: left;
+}
+
+.about h2 {
+  padding-bottom: 30px;
+}
+
+.about img {
+  float: left;
+  width: 280px;
+  padding-right: 30px;
+}
+
+.about-text {
+  float: left;
+  width: 420px;
+}
+
+.about-text h1 {
+  font-size: 28px;
+  font-weight: 100;
+  line-height: 1.4;
+  color: #555;
+  padding-bottom: 20px;
+}
+
+.about-text h4 {
+  color: rgb(63, 214, 214);
+  font-weight: 100;
+  font-size: 20px;
+}
+
+.about-para {
+  clear: both;
+  padding-top: 25px;
+  color: #777;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+/* right part of about us section */
+
+/* todo: fix list image */
+
+.about-side {
+  float: left;
+  width: 320px;
+  padding: 45px 0px 0px 75px;
+  position: relative;
+}
+
+.about-side dt {
+  font-size: 18px;
+  color: #333;
+  padding-bottom: 10px;
+  font-weight: 800;
+  list-style-image: url("DreamDevelopers/play-small-grey.png");
+  list-style-position: inside;
+}
+
+.about-side dd {
+  padding: 0 0 30px 0;
+  color: #777;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* footer section */
+
+.footer {
+  background-image: url("DreamDevelopers/footer-image.png");
+  color: #f1f1f1;
+  padding: 80px 180px 80px 180px;
+}
+
+.footer-container {
+  position: relative;
+}
+
+/* testimonial section */
+
+.testimonial {
+  width: 300px;
+  display: inline-block;
+  padding-right: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.testimonial h4 {
+  padding: 10px 0px 40px;
+}
+
+.testimonial span {
+  font-size: 14px;
+  color: #999;
+  margin-bottom: 10px;
+}
+
+.testimonial h5 {
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(150, 150, 150);
+  width: 200px;
+  display: inline-block;
+}
+
+.test-bottom {
+  width: 260px;
+}
+
+.test-bottom img {
+  display: inline-block;
+  position: relative;
+  right: -20px;
+  bottom: -35px;
+  border-radius: 50%;
+}
+
+/* quicklink section */
+
+.quicklink {
+  width: 250px;
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  left: 400px;
+}
+
+.quicklink h4 {
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 5px;
+}
+
+.quicklink img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.quicklink-logo {
+  padding-bottom: 40px;
+}
+
+.quicklink-items ul {
+  list-style-type: none;
+  list-style-image: url("DreamDevelopers/play-small-grey.png");
+}
+
+.quicklink-items li {
+  padding: 5px;
+  color: #999;
+}
+
+.quicklink-items ul :hover {
+  color: #f1f1f1;
+  list-style-image: url("DreamDevelopers/a.png");
+}
+
+/* address section */
+
+.address {
+  width: 250px;
+  display: inline-block;
+  position: relative;
+  translate: 700px 0px;
+}
+
+.address h4 {
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 25px;
+}
+
+.address img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.address-logo {
+  padding-bottom: 40px;
+}
+
+.address p {
+  padding: 20px 0 20px;
+}
+
+.address pre {
+  font-size: 16px;
+}
+
+/* Subscribe section */
+
+.links {
+  width: 300px;
+  padding-right: 100px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.links h4 {
+  padding: 10px 0px 30px;
+}
+
+/* form */
+
+input[type="email"] {
+  width: 80%;
+  padding: 6px 12px;
+  display: inline-block;
+}
+
+input[type="submit"] {
+  width: 80px;
+  background-color: #4bcbd4;
+  color: white;
+  padding: 5px;
+  margin: 30px 0;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #419e99;
+}
+
+/* social links */
+
+.fb-icon {
+  width: 32px;
+  height: 32px;
+  background: url("DreamDevelopers/facebook-icon.png") -32px 0 no-repeat;
+  vertical-align: middle;
+  display: inline-block;
+}
+.x-icon {
+  width: 32px;
+  height: 32px;
+  background: url("DreamDevelopers/twitter-icon.png") -32px 0 no-repeat;
+  vertical-align: middle;
+  display: inline-block;
+}
+.ln-icon {
+  width: 32px;
+  height: 32px;
+  background: url("DreamDevelopers/linked-in-icon.png") -32px 0 no-repeat;
+  vertical-align: middle;
+  display: inline-block;
+}
+.mail-icon {
+  width: 32px;
+  height: 32px;
+  background: url("DreamDevelopers/mail-icon.png") -32px 0 no-repeat;
+  vertical-align: middle;
+  display: inline-block;
+}
+.edit-icon {
+  width: 32px;
+  height: 32px;
+  background: url("DreamDevelopers/edit-icon.png") -32px 0 no-repeat;
+  vertical-align: middle;
+  display: inline-block;
+}
